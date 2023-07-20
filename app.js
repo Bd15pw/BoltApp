@@ -35,5 +35,6 @@ const app = Vue.createApp({
 			this.sec = 0;
 			this.min = 0;
 		},
+		countDistans() {},
 	},
 }).mount(".container");
