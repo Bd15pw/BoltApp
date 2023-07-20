@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lighting App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Stopwatch</h1>
+			<p class="time">
+				<span id="minutes">{{min}}</span>:<span id="secound">{{sec}}</span
+				>:<span id="tens">{{tens}}</span>
+			</p>
+			<button id="start" v-on:click="startBtn()">Start</button>
+			<button id="stop" v-on:click="stopBtn()">Stop</button>
+			<button id="reset" v-on:click="resetBtn()">Reset</button>
+			<ul>
+				<li>test</li>
+			</ul>
+		</div>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
