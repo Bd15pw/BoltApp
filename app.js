@@ -38,3 +38,5 @@ const app = Vue.createApp({
 		countDistans() {},
 	},
 }).mount(".container");
+
+//fake
