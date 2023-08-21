@@ -43,3 +43,4 @@ const app = Vue.createApp({
 
 // testowy kom 
 // sprawdzenie 
+// dokonczy odlizcanie 
