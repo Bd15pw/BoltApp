@@ -42,3 +42,4 @@ const app = Vue.createApp({
 //fake
 
 // testowy kom 
+// sprawdzenie 
