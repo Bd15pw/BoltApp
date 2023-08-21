@@ -40,3 +40,5 @@ const app = Vue.createApp({
 }).mount(".container");
 
 //fake
+
+// testowy kom 
